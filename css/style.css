@@ -1,0 +1,20 @@
+.container {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+#submitButton {
+    float: right;
+}
+.error {
+    color: red;
+}
+label, .modal-title {
+    color: #253455;
+}
+@media screen and (max-device-width: 769px) {
+    .container {
+        width: 95%;
+    }
+}
